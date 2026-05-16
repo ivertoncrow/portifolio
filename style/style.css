@@ -232,10 +232,14 @@ ul {
 }
 
 .hero-title {
-  font-size: clamp(2.2rem, 8vw, 5rem);
-  font-weight: 800;
+  font-size: clamp(2.2rem, 8vw, 4.2rem);
+  font-weight: 600;
   line-height: 1.1;
   margin-bottom: 1.25rem;
+}
+
+.hero-title span {
+  display: block;
 }
 
 #avatar:active {
@@ -840,6 +844,10 @@ ul {
 
   .hero-content {
     flex: 1;
+  }
+
+  .hero-title br {
+    display: none;
   }
 
   .hero-decoration {
