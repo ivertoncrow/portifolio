@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Engenharia de Software</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER / HERO -->
+    <header class="hero">
+      <nav class="navbar">
+        <span class="logo">{"portfólio"}</span>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Skills</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-badge">Engenharia de Software</div>
+        <h1 class="hero-title" id="hero-title">
+          Olá,<br />
+          eu sou<br /><span class="highlight">Iverton Melo</span>
+        </h1>
+        <p class="hero-sub">
+          Estudante de Engenharia de Software · Desenvolvedor Web em formação ·
+          Apaixonado por tecnologia e inovação
+        </p>
+        <div class="hero-cta">
+          <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="hero-decoration">
+        <div class="code-block">
+          <span class="line"><span class="kw">const</span> dev = {</span>
+          <span class="line"
+            >&nbsp;&nbsp;nome: <span class="str">"Iverton Melo"</span>,</span
+          >
+          <span class="line"
+            >&nbsp;&nbsp;curso:
+            <span class="str">"Eng. de Software"</span>,</span
+          >
+          <span class="line"
+            >&nbsp;&nbsp;foco: <span class="str">"Web Responsivo"</span>,</span
+          >
+          <span class="line"
+            >&nbsp;&nbsp;status: <span class="str">"Em evolução 🚀"</span></span
+          >
+          <span class="line">};</span>
+        </div>
+      </div>
+
+      <div class="scroll-hint">↓ role para baixo</div>
+    </header>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section-label">// sobre mim</div>
+        <div class="sobre-grid">
+          <div class="sobre-avatar">
+            <!-- IMAGEM AQUI -->
+            <div>
+              <img
+                src="/Portifolio/img/IjWxygAZ.png"
+                alt="fotodoperfil"
+                class="avatar-placeholder"
+                id="avatar"
+                tabindex="0"
+              />
+            </div>
+            <div class="avatar-tag">Disponível para oportunidades</div>
+          </div>
+          <div class="sobre-text">
+            <h2 id="hero-title">Quem sou eu?</h2>
+            <p>
+              Sou estudante de <strong>Engenharia de Software</strong>,
+              apaixonado por criar soluções digitais que realmente fazem
+              diferença. Estou construindo uma base sólida em desenvolvimento
+              web, com foco em interfaces responsivas e experiência do usuário.
+            </p>
+            <p>
+              Atualmente cursando disciplinas de
+              <strong>Desenvolvimento Responsivo</strong> e
+              <strong>Empreendedorismo & Inovação</strong>, o que me dá uma
+              visão técnica e estratégica do desenvolvimento de software.
+            </p>
+            <p>
+              Acredito que bom código vai além da sintaxe — é sobre resolver
+              problemas reais com elegância e eficiência.
+            </p>
+            <div class="sobre-pills">
+              <span class="pill">🎯 Foco em resultados</span>
+              <span class="pill">💡 Mentalidade inovadora</span>
+              <span class="pill">📱 Mobile-first</span>
+              <span class="pill">🔧 Em constante aprendizado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section section-dark" id="habilidades">
+      <div class="container">
+        <div class="section-label">// habilidades</div>
+        <h2 class="section-title" id="hero-title">O que estou aprendendo</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>Front-end</h3>
+            <ul>
+              <li>
+                <span class="skill-name">HTML5</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">CSS3</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Flexbox & Grid</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Media Queries</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">📐</div>
+            <h3>Design & UX</h3>
+            <ul>
+              <li>
+                <span class="skill-name">Mobile-first</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Wireframe</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Figma</span
+                ><span class="skill-tag iniciando">Iniciando</span>
+              </li>
+              <li>
+                <span class="skill-name">Design Responsivo</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h3>Fundamentos</h3>
+            <ul>
+              <li>
+                <span class="skill-name">Lógica de Programação</span
+                ><span class="skill-tag solido">Sólido</span>
+              </li>
+              <li>
+                <span class="skill-name">Algoritmos</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Engenharia de Software</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Git & GitHub</span
+                ><span class="skill-tag iniciando">Iniciando</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">💼</div>
+            <h3>Soft Skills</h3>
+            <ul>
+              <li>
+                <span class="skill-name">Empreendedorismo</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Inovação</span
+                ><span class="skill-tag aprendendo">Aprendendo</span>
+              </li>
+              <li>
+                <span class="skill-name">Resolução de Problemas</span
+                ><span class="skill-tag solido">Sólido</span>
+              </li>
+              <li>
+                <span class="skill-name">Trabalho em Equipe</span
+                ><span class="skill-tag solido">Sólido</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section class="section" id="formacao">
+      <div class="container">
+        <div class="section-label">// formação</div>
+        <h2 class="section-title" id="hero-title">Minha jornada acadêmica</h2>
+
+        <div class="timeline">
+          <div class="timeline-item active">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Atual</span>
+              <h3>Engenharia de Software</h3>
+              <p>UNOPAR / EAD</p>
+              <div class="timeline-tags">
+                <span>Desenvolvimento Responsivo</span>
+                <span>Empreendedorismo & Inovação</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Em andamento</span>
+              <h3>Desenvolvimento Web</h3>
+              <p>Estudos de HTML, CSS e Design Responsivo</p>
+              <div class="timeline-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Mobile-first</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Em breve</span>
+              <h3>JavaScript & Frameworks</h3>
+              <p>Próxima etapa da jornada de aprendizado</p>
+              <div class="timeline-tags">
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section section-dark" id="projetos">
+      <div class="container">
+        <div class="section-label">// projetos</div>
+        <h2 class="section-title" id="hero-title">O que estou construindo</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-number">01</div>
+            <h3>Página de Apresentação Pessoal</h3>
+            <p>
+              Primeiro projeto prático utilizando HTML e CSS, criando uma página
+              de apresentação com estilos básicos.
+            </p>
+            <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+            <div class="project-status em-desenvolvimento">
+              Em desenvolvimento
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-number">02</div>
+            <h3>Layout Responsivo Mobile-first</h3>
+            <p>
+              Layout adaptável para diferentes dispositivos utilizando a
+              abordagem mobile-first com media queries.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Media Queries</span>
+            </div>
+            <div class="project-status em-desenvolvimento">
+              Em desenvolvimento
+            </div>
+          </div>
+
+          <div class="project-card coming-soon">
+            <div class="project-number">03</div>
+            <h3>🔒 Em breve</h3>
+            <p>Próximo projeto em planejamento. Acompanhe minha evolução!</p>
+            <div class="project-tags">
+              <span>???</span>
+            </div>
+            <div class="project-status breve">Em breve</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section-label">// contato</div>
+        <h2 class="section-title" id="hero-title">Vamos conversar?</h2>
+        <p class="contato-desc">
+          Estou aberto a oportunidades, colaborações e troca de conhecimentos.
+        </p>
+
+        <div class="contato-grid">
+          <a href="mailto:seuemail@email.com" class="contato-card">
+            <span class="contato-icon">✉️</span>
+            <span class="contato-label">E-mail</span>
+            <span class="contato-value">ivertonmello@gmail.com</span>
+          </a>
+          <a
+            href="https://linkedin.com/in/iverton-mello-dev"
+            target="_blank"
+            class="contato-card"
+          >
+            <span class="contato-icon">💼</span>
+            <span class="contato-label">LinkedIn</span>
+            <span class="contato-value">/in/iverton-mello-dev</span>
+          </a>
+          <a
+            href="https://github.com/ivertoncrow"
+            target="_blank"
+            class="contato-card"
+          >
+            <span class="contato-icon">🐙</span>
+            <span class="contato-label">GitHub</span>
+            <span class="contato-value">@ivertoncrow</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Feito com 💙 por <strong>Iverton Melo</strong> · Estudante de
+          Engenharia de Software
+        </p>
+        <p class="footer-sub">
+          Portfólio em constante evolução — assim como eu.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      // Menu hamburguer mobile
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        hamburger.classList.toggle("active");
+      });
+
+      // Fechar menu ao clicar em link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("open");
+          hamburger.classList.remove("active");
+        });
+      });
+
+      // Animação de entrada ao rolar
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) e.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.1 },
+      );
+
+      document
+        .querySelectorAll(
+          ".skill-card, .project-card, .timeline-item, .contato-card",
+        )
+        .forEach((el) => {
+          observer.observe(el);
+        });
+    </script>
+  </body>
+</html>
